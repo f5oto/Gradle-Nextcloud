@@ -1,5 +1,3 @@
-include ':'
-//include 'nextcloud-android-library'
 pluginManagement {
     resolutionStrategy {
         eachPlugin {
@@ -12,4 +10,5 @@ pluginManagement {
         mavenCentral()
     }
 }
-
+include ':'
+//include 'nextcloud-android-library'
