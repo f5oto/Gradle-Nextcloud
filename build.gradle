@@ -32,7 +32,7 @@ apply plugin: 'checkstyle'
 apply plugin: 'pmd'
 apply plugin: 'findbugs'
 apply plugin: 'jacoco-android'
-apply plugin: 'java'
+//apply plugin: 'java'
 apply plugin: 'maven'
 
 configurations.all {
