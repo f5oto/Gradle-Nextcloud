@@ -6,7 +6,7 @@ pipeline {
     stage('Pull Source') {
       // Get some code from a GitHub repository
       steps {
-        git 'https://github.com/f5oto/android.git'
+        git 'https://github.com/f5oto/Gradle-Nextcloud.git'
       }
     }
     stage('Build & Install') {
