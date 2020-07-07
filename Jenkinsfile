@@ -11,8 +11,9 @@
   // "packaging"   - DESCRIPTION: The file format extension of the final artefact EG "ear | war | jar"
 
 pipeline {
-   label 'gradle-node'
-
+    agent {
+       label 'gradle-node'
+        }
     environment {
        ARTEFACT_NAME = "${WORKSPACE}/target/${artifactId}-${version}.${packaging}"
        TAG_FILE = "${WORKSPACE}/tag.json"
